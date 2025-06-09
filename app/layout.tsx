@@ -1,5 +1,7 @@
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
+import { ProviderWrapper } from './ThemeProviderWrapper'; // or from your UI library
+
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -19,7 +21,9 @@ export default function RootLayout({
 					rel="stylesheet"
 				/>
 			</Head>
-			<body className={`${inter.className} bg-5`}>{children}</body>
+			<body className={`${inter.className} bg-5`}>
+				<ProviderWrapper>{children}</ProviderWrapper>
+			</body>
 		</html>
 	);
 }

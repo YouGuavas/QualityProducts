@@ -11,13 +11,13 @@ export const metadata: Metadata = {
 
 export default function Home() {
 	return (
-		<main className={``}>
+		<main className={`flex row`}>
 			<p>
 				NOTE - this site is in &quot;Rough Draft&quot; mode - I need to make a
 				ton of changes. This is only for visualization.
 			</p>
 
-			<div className={`banner-container width-full center bg-1`}>
+			<div className={`banner-container width-full center bg-2`}>
 				<Image
 					src={banner.src}
 					fill
@@ -26,55 +26,21 @@ export default function Home() {
 				/>
 			</div>
 			<h1 className={`undisplayed`}>Quality Products</h1>
-			<section className={``}>
-				<h2>A Quality Mission.</h2>
+			<section className={`width-half`}>
+				<h2 className={`style-1 color-1 uppercase thin spaced`}>
+					A Quality Mission.
+				</h2>
 				<p>Placeholder text - mission statement.</p>
 			</section>
 
-			<section className={``}>
-				<h2>How to Grow Quality Products</h2>
+			<section className={`width-half`}>
+				<h2 className={`style-1 color-1 uppercase thin spaced`}>
+					How to Grow Quality Products
+				</h2>
 				<p>
 					Placeholder text - a description of the care that goes into growing
 					Quality Products&apos; products.
 				</p>
-
-				<a
-					href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-					className={``}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<h2>
-						Learn <span>-&gt;</span>
-					</h2>
-					<p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-				</a>
-
-				<a
-					href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-					className={``}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<h2>
-						Templates <span>-&gt;</span>
-					</h2>
-					<p>Explore starter templates for Next.js.</p>
-				</a>
-
-				<a
-					href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-					className={``}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<h2>
-						Deploy <span>-&gt;</span>
-					</h2>
-					<p>
-						Instantly deploy your Next.js site to a shareable URL with Vercel.
-					</p>
-				</a>
 			</section>
 		</main>
 	);

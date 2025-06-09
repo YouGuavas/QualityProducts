@@ -47,8 +47,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.50911688"
-     inkscape:cx="614.79007"
-     inkscape:cy="398.72966"
+     inkscape:cx="610.86169"
+     inkscape:cy="92.316719"
      inkscape:window-width="1392"
      inkscape:window-height="847"
      inkscape:window-x="0"
@@ -69,5 +69,5 @@
      d="m 2262.7417,116.03168 6.62,368.61558 148.9508,14.25586 23.1701,-386.94454 z"
      id="path1"
      clip-path="url(#clipPath1)"
-     transform="translate(-1494.7451,-113.92276)"
+     transform="matrix(1,0,0,1.1887755,-1494.7451,-135.42859)"
      inkscape:label="path1" /></svg>
