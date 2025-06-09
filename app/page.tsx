@@ -16,6 +16,11 @@ export default function Home() {
 				NOTE - this site is in &quot;Rough Draft&quot; mode - I need to make a
 				ton of changes. This is only for visualization.
 			</p>
+			<p>
+				Current theming ideas involve purple, green, and gold - for associations
+				with royalty, quality, and trust. Open to modifications in alignment
+				with your vision.
+			</p>
 
 			<div className={`banner-container width-full center bg-2`}>
 				<Image
